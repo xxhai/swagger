@@ -31,7 +31,7 @@
 <br>
 如果是public 目录为访问目录的话 在
 .htaccess 文件  加入以下代码 否则可能会是找不到模块，实际是被重写拦截了 
-```
+```.htaccess
 RewriteCond $1 !^(static|swagger-docs|upload)
 ```
 
